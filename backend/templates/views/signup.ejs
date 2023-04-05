@@ -31,12 +31,12 @@
                     </div>
 
                     <div class="input-field">
-                        <input type="email" id="EMail" name="email" placeholder="Enter your email" required>
+                        <input type="text" id="EMail" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     
                     <div class="input-field">
-                        <input type="phonenumber" id="phonenumber" name="pnumber" placeholder="Enter your phone number" maxlength="14" required value="+91 "> 
+                        <input type="text" id="phonenumber" name="pnumber"  placeholder="Enter your phone number" maxlength="10" pattern="[6-9]{1}[0,9]{9}" required > 
                         <i class="uil uil-phone"></i>
                     </div>
 
